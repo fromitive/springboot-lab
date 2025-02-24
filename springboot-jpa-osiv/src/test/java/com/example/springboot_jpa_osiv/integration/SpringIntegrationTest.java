@@ -14,9 +14,10 @@ public abstract class SpringIntegrationTest {
 
     @Autowired
     protected MemberFixture memberFixture;
-    
+
     @LocalServerPort
     private int port;
+    
     @Autowired
     private DatabaseCleaner databaseCleaner;
 
